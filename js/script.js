@@ -7,9 +7,9 @@ inputText.addEventListener('input', () => {
     charCount.textContent = text.length;
     let word = text.trim().split(/\s+/);
 
-    // if (text.trim() === "") {
-    //     wordCount.innerText = 0;
-    // }else {
-    //     wordCount.innerText = word.length;
-    // }
+    if (text.trim() === "") {
+        wordCount.innerText = 0;
+    }else {
+        wordCount.innerText = word.length;
+    }
 });
