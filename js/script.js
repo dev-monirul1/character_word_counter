@@ -1,6 +1,6 @@
-// const inputText = document.getElementById('inputText');
-// const charCount = document.getElementById('charCount');
-// const wordCount = document.getElementById('wordCount');
+const inputText = document.getElementById('inputText');
+const charCount = document.getElementById('charCount');
+const wordCount = document.getElementById('wordCount');
 
 // inputText.addEventListener('input', () => {
 //     const text = inputText.value;
